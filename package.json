@@ -1,0 +1,71 @@
+{
+  "_from": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git",
+  "_id": "cordova-plugin-imagepicker@1.2.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-imagepicker",
+  "_phantomChildren": {
+    "lodash": "4.17.21"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git",
+    "rawSpec": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git",
+    "saveSpec": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git",
+    "fetchSpec": "https://github.com/giantss/cordova-plugin-ImagePicker.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git#9945467224d00db565009fe173392acf39a5e4d4",
+  "_spec": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git",
+  "_where": "E:\\project-hg\\app\\gjh-pmp-app\\pmp-app\\app",
+  "author": {
+    "name": "giantss"
+  },
+  "bugs": {
+    "url": "https://github.com/giantss/cordova-plugin-ImagePicker/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-imagepicker",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "async": "^2.6.0"
+  },
+  "deprecated": false,
+  "description": "Cordova ImagePicker Plugin",
+  "devDependencies": {
+    "jshint": "^0.1.8"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova-android": ">6.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/giantss/cordova-plugin-ImagePicker#readme",
+  "keywords": [
+    "cordova",
+    "cordova-ios",
+    "cordova-android",
+    "ImagePicker"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-imagepicker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giantss/cordova-plugin-ImagePicker.git"
+  },
+  "version": "1.2.2"
+}
