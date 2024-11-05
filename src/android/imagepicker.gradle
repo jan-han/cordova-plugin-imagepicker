@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        mavenCentral()
+//         jcenter()
+        maven { url 'https://maven.aliyun.com/repository/jcenter'
+         allowInsecureProtocol true}
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public'
+         allowInsecureProtocol true}
+    }
+}
+repositories {
+    mavenCentral()
+//     jcenter()
+    maven { url 'https://maven.aliyun.com/repository/jcenter'
+     allowInsecureProtocol true}
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public'
+     allowInsecureProtocol true}
+    maven { url 'https://jitpack.io'
+     allowInsecureProtocol true}
+}
+dependencies {
+    implementation 'com.android.support:appcompat-v7:+'
+    implementation 'com.android.support:support-v4:+'
+    implementation 'com.android.support:recyclerview-v7:+'
+    implementation 'com.android.support:exifinterface:+'
+    implementation 'com.github.chrisbanes.photoview:library:1.+'
+    implementation 'com.github.bumptech.glide:glide:4.9.+'
+    implementation 'com.github.nanchen2251:CompressHelper:1.0.5'
+    implementation 'top.zibin:Luban-turbo:1.+'
+    //implementation 'top.zibin:Luban:1.1.+'
+}
+android {
+   defaultConfig {
+       vectorDrawables.useSupportLibrary = true
+   }
+   packagingOptions {
+       exclude 'META-INF/NOTICE'
+       exclude 'META-INF/LICENSE'
+   }
+}
